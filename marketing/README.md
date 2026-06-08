@@ -1,6 +1,6 @@
 # marketing/
 
-**32 个营销 skill** — 内容/品牌/CRO/SEO/视觉/战略。
+**69 个营销 skill** — 内容/品牌/CRO/SEO/视觉/战略/广告/分析/销售(综合 phuryn + coreyhaines31 两源)。
 
 ## 战略框架（来自 phuryn/pm-skills）
 - [value-proposition](./value-proposition) — 6 节 JTBD 价值主张

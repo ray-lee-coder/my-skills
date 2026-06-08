@@ -1,6 +1,6 @@
 # meta/
 
-**13 个元工具 skill** — Skill 治理/AI 代理/MCP/审计/归因。
+**19 个元工具 skill** — Skill 治理/AI 代理/MCP/审计/归因/工程方法论(caveman/grill-me/handoff/teach/write-a-skill)+ 首次安装引导(setup-my-skills)。
 
 ## Skill 治理
 - [skill-adoption-planner](./skill-adoption-planner) — 采纳 6 步法

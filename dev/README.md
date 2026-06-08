@@ -1,6 +1,6 @@
 # dev/
 
-**27 个开发者 skill** — 工具链/PM 协作/代码审查/测试。
+**38 个开发者 skill** — 工具链/工程方法论/代码审查/测试/调试(TDD/diagnose/triage/tdd 等)。
 
 ## 工具链
 - [api-tester](./api-tester) — API 测试生成
