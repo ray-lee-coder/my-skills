@@ -1,58 +1,42 @@
 # my-skills
 
-> **This is a standalone curated collection, not a Hermes backup.**
-> Before any change, read `~/.hermes/dev-logs/collections/methodology.md`.
-> Adapts to: Hermes · OpenClaw · Cursor · Claude Code — design decisions must hold across all 4, not just Hermes.
-
-A curated cross-source collection of 100 AI agent skills, organized into 5 categories:
-`dev/` · `doc/` · `marketing/` · `biz/` · `meta/`
+> **This is a standalone curated collection, not a Hermes backup.** Before any change, read `CONTEXT.md` and `scripts/validate.py`.
 
 ## Layout
 
 ```
 my-skills/
-├── CLAUDE.md                this file (agent entry point)
-├── README.md                GitHub-facing overview
-├── LICENSE                  MIT
-├── banner.png
-├── scripts/validate.py      quality gate — run before commit
-└── <category>/
-    ├── README.md            per-category overview
-    └── <skill>/SKILL.md     one directory per skill
+├── CLAUDE.md            this file
+├── CONTEXT.md           shared domain vocabulary
+├── README.md            GitHub-facing
+├── scripts/validate.py  quality gate — must PASS before commit
+└── <category>/          dev | doc | marketing | biz | meta
+    ├── README.md
+    └── <item>/SKILL.md
 ```
 
 ## Hard rules (non-negotiable)
 
-1. **Standalone project.** This repo is a first-class deliverable, not a Hermes backup. Any change that only optimizes for Hermes is wrong.
-2. **Curate, don't accumulate.** Default target 30-50 skills. Bulk stages are OK; final delivery must be tight.
-3. **Skill = noun, command = verb.** This repo has no `commands/` directory — slash-command workflows don't exist in this ecosystem. End-to-end workflows are encoded as skills with a sequence of steps in the body.
-4. **Frontmatter required on every `SKILL.md`:** `name` (must match directory name) + `description` (must contain a trigger phrase: `Use when` / `Use for` / `Triggers` / `Use this`).
-5. **Run `python3 scripts/validate.py` before every commit.** CI gate, not a suggestion.
-6. **No Claude-Code-specific structures:** no `.claude-plugin/marketplace.json`, no `plugin.json`, no `$ARGUMENTS` placeholders. These don't work in Hermes/OpenClaw/Cursor.
+1. **Standalone project.** First-class deliverable, not a tool backup. Decisions must hold across Hermes / OpenClaw / Cursor / Claude Code.
+2. **Curate, don't accumulate.** Default target 30-50. Bulk stages OK; final delivery tight.
+3. **Every `SKILL.md` has frontmatter:** `name` (1-64 chars, kebab-case, matches dir) + `description` (trigger phrase, 30-1024 chars en / 15-200 zh).
+4. **No Claude-Code-only syntax in SKILL.md body.** No `` !`command` `` shell injection. Skills must be cross-agent.
+5. **Run `python3 scripts/validate.py` before commit.** Zero errors required; warnings accepted.
+6. **No Claude-Code-specific repo structures:** no `.claude-plugin/marketplace.json`, no `plugin.json`, no `$ARGUMENTS` placeholders.
 
-## Maintenance workflow
+## Naming
 
-1. Read `~/.hermes/dev-logs/collections/methodology.md` (shared across all curated collections).
-2. Pick the right SOP from `~/.hermes/dev-logs/collections/sops/`:
-   - `SOP-new-collection.md` — first-time setup
-   - `SOP-audit.md` — quality audit on existing items
-   - `SOP-add-item.md` — adding a single item
-   - `SOP-sync-upstream.md` — pulling changes from upstream sources
-3. Run `python3 scripts/validate.py` to confirm zero errors before commit.
-4. Update the per-category `README.md` count and total badge in root `README.md`.
+- Noun or verb, both fine — match upstream convention when porting.
+- Lowercase, hyphens, no `--`, no leading/trailing hyphen.
+- Disambiguate via "for X, see Y" in description (see CONTEXT.md "Scope boundary").
 
-## Sources tracked (for upstream sync)
+## Workflow
 
-- `phuryn/pm-skills` — primary PM/process source
-- `nexscope-ai/eCommerce-Skills` — e-commerce
-- `aitytech/agentkits-marketing` — marketing/CRO
-- `yizhiyanhua-ai/agent-skills` — official Anthropic mirror + meta-tools
-- `laolaoshiren/claude-code-skills-zh` — Chinese dev
+1. Read `CONTEXT.md` (terms) + this file (rules).
+2. New item → cherry-pick from upstream, copy to `<category>/<item>/SKILL.md`, add to category README.
+3. Modify item → keep frontmatter, update body, re-run validator.
+4. Sync upstream → diff, judge per-item, update only what fixes bugs or improves clarity.
 
-Sync policy: quarterly review, not real-time. See `SOP-sync-upstream.md`.
+## Sources tracked
 
-## What this is NOT
-
-- Not a fork of any single source — items are cherry-picked across sources.
-- Not a Claude Code plugin marketplace — no `marketplace.json`, install via direct clone.
-- Not sealed at 100 items — the number is current count, not a target ceiling.
+phuryn/pm-skills · nexscope-ai/eCommerce-Skills · aitytech/agentkits-marketing · yizhiyanhua-ai/agent-skills · laolaoshiren/claude-code-skills-zh · coreyhaines31/marketingskills · mattpocock/skills
