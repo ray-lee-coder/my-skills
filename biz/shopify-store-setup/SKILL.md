@@ -1,3 +1,8 @@
+---
+name: shopify-store-setup
+description: "Use when setting up a new Shopify store — account creation, theme selection, product uploads, payment/shipping configuration, and first-sale launch."
+---
+
 # Shopify Store Setup
 
 Step-by-step Shopify store setup guide. From account creation to first sale — theme selection, product uploads, payment and shipping configuration, domain setup, and launch checklist.

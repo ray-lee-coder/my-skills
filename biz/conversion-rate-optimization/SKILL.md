@@ -1,3 +1,8 @@
+---
+name: conversion-rate-optimization
+description: "Use when auditing conversion funnels, identifying drop-off points, running CRO experiments, or improving revenue per visitor across e-commerce stores."
+---
+
 # Conversion Rate Optimization
 
 Systematic CRO for e-commerce stores. Audit conversion funnels, identify drop-off points, implement fixes, and run experiments to increase revenue per visitor across all platforms.

@@ -1,3 +1,8 @@
+---
+name: tiktok-shop-seller-guide
+description: "Use when selling on TikTok Shop — product listing, content strategy, live selling, creator affiliate partnerships, TikTok Ads, and social commerce analytics."
+---
+
 # TikTok Shop Seller Guide
 
 Complete guide for selling on TikTok Shop — product listing, content strategy, live selling, affiliate creator partnerships, TikTok Ads, and analytics for social commerce success.
