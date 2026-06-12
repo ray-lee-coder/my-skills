@@ -26,11 +26,16 @@
 - [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder) — 全渠道营销
 - [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner) — PPC 策略
 
-## GTM/客户（来自 phuryn/pm-skills）
-- [gtm-strategy](./gtm-strategy) — 完整 GTM 策略
+## GTM/客户（来自 phuryn/pm-skills + workflowsio 实战）
+- [gtm-strategy](./gtm-strategy) — 完整 GTM 策略（5层栈 + 4 motion + 70/20/10 预算）
 - [beachhead-segment](./beachhead-segment) — 滩头市场
-- [ideal-customer-profile](./ideal-customer-profile) — ICP
+- [ideal-customer-profile](./ideal-customer-profile) — ICP 三维度评分模型（firmo/psycho/behavioral）
 - [growth-loops](./growth-loops) — 增长飞轮
+
+## B2B 销售执行（来自 workflowsio 实战，2026-06-12 融合）
+- [outbound-copywriter](./outbound-copywriter) — 冷邮件 SPARK 框架 + 7 archetype + 4 步跟进
+- [linkedin-post-writer](./linkedin-post-writer) — 7 种 LinkedIn 帖子框架 + 12 hook + 评分 rubric
+- [discovery-prep](./discovery-prep) — 销售会前简报（4 层研究 + 5 种通话剧本）
 
 ## 用户研究（来自 phuryn/pm-skills）
 - [market-sizing](./market-sizing) — TAM/SAM/SOM

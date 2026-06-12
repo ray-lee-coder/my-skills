@@ -2,14 +2,14 @@
 
 # my-skills
 
-**150 free AI agent skills for developers, product managers, marketers, e-commerce sellers & content creators.**
+**153 free AI agent skills for developers, product managers, marketers, e-commerce sellers & content creators.**
 
-[![Skills](https://img.shields.io/badge/skills-150-10b981?style=flat-square)]()
+[![Skills](https://img.shields.io/badge/skills-153-10b981?style=flat-square)]()
 [![Categories](https://img.shields.io/badge/categories-5-blue?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)]()
-[![Sources](https://img.shields.io/badge/sources-5--curated-purple?style=flat-square)]()
+[![Sources](https://img.shields.io/badge/sources-8--curated-purple?style=flat-square)]()
 
-Curated from **5 GitHub repos** · Works with **Hermes** · **OpenClaw** · **Cursor** · **Claude Code**
+Curated from **8 GitHub repos** · Works with **Hermes** · **OpenClaw** · **Cursor** · **Claude Code**
 
 </div>
 
@@ -189,7 +189,7 @@ MIT
 
 <div align="center">
 
-Curated by **[ray-lee-coder](https://github.com/ray-lee-coder)** · 150 skills · 5 categories
+Curated by **[ray-lee-coder](https://github.com/ray-lee-coder)** · 153 skills · 5 categories
 
 ⭐ Star if useful
 
