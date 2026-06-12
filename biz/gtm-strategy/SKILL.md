@@ -1,6 +1,23 @@
 ---
 name: gtm-strategy
 description: "Design a B2B go-to-market strategy with channel mix, motion selection, budget allocation, and metrics. Use for product launches, GTM audits, channel strategy, or motion design (outbound vs inbound vs product-led vs partner). For ICP definition, see ideal-customer-profile. For outreach copy, see outbound-copywriter."
+metadata:
+  version: 1.1.0
+  category: strategy
+  source: workflowsio-fused
+license: MIT
+triggers:
+  - "go-to-market"
+  - "GTM strategy"
+  - "channel strategy"
+  - "motion design"
+  - "marketing audit"
+  - "budget allocation"
+related:
+  - ideal-customer-profile
+  - outbound-copywriter
+  - marketing-plan
+  - growth-loops
 ---
 
 # GTM Strategy

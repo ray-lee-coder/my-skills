@@ -1,6 +1,22 @@
 ---
 name: outbound-copywriter
-description: "Write high-converting B2B cold email sequences using the SPARK framework, 7 power patterns, Chris Voss persuasion layer, and a 4-step follow-up engine. Use for cold email campaigns, sequence rebuilds, A/B test copy, and post-launch monthly copy refresh. For GTM motion design, see gtm-strategy. For ICP targeting, see ideal-customer-profile."
+description: "Write high-converting B2B cold email sequences using the SPARK framework, 7 power patterns, Chris Voss persuasion layer, and a 4-step follow-up engine. Use for cold email campaigns, sequence rebuilds, A/B test copy, and post-launch monthly copy refresh. For a shorter primer on cold email basics, see marketing/cold-email. For GTM motion design, see gtm-strategy. For ICP targeting, see ideal-customer-profile."
+metadata:
+  version: 1.0.0
+  category: content
+  source: workflowsio
+license: MIT
+triggers:
+  - "cold email"
+  - "outbound copy"
+  - "sales email"
+  - "follow-up sequence"
+  - "SPARK framework"
+  - "SDR email"
+related:
+  - gtm-strategy
+  - ideal-customer-profile
+  - cold-email
 ---
 
 # Outbound Copywriter

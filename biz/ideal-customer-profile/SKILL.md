@@ -1,6 +1,23 @@
 ---
 name: ideal-customer-profile
 description: "Build a tiered ICP matrix with firmographic, psychographic, and behavioral scoring. Use when defining ICP, refining targeting after 3+ months of data, expanding into a new segment, or scoring accounts for outbound prioritization. For GTM motion and channel design, see gtm-strategy. For cold outreach copy, see outbound-copywriter."
+metadata:
+  version: 1.1.0
+  category: strategy
+  source: workflowsio-fused
+license: MIT
+triggers:
+  - "ideal customer profile"
+  - "ICP"
+  - "target market"
+  - "account scoring"
+  - "firmographic"
+  - "psychographic"
+related:
+  - gtm-strategy
+  - outbound-copywriter
+  - market-segments
+  - user-personas
 ---
 
 # Ideal Customer Profile
