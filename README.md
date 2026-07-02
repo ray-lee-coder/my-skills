@@ -134,7 +134,7 @@ Then ask your AI assistant naturally — skills auto-trigger on keywords.
 |-------|-------------|
 | [amazon-review-checker](./biz/amazon-review-checker) | Amazon 评论真实性 — 5 步工作流 |
 | [beachhead-segment](./biz/beachhead-segment) | 滩头市场 — 早期聚焦首个细分 |
-| [brand-monitoring](./biz/brand-monitoring) | 品牌监控 — 多平台 + 危机检测 |
+| [brand-monitoring](./biz/brand-monitoring) | 品牌监控 - 多平台 + 危机检测 + Hermes Tweet X/Twitter companion |
 | [conversion-rate-optimization](./biz/conversion-rate-optimization) | 漏斗诊断 + 实验设计 |
 | [ecommerce-growth-strategy](./biz/ecommerce-growth-strategy) | 增长战略 — Ansoff + 5 杠杆 + 90 天计划 |
 | [ecommerce-keyword-research](./biz/ecommerce-keyword-research) | 关键词研究 — 5 平台方法论 |

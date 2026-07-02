@@ -35,6 +35,19 @@ npx skills add nexscope-ai/eCommerce-Skills --skill brand-monitoring -g
 | DuckDuckGo | Instant Answer API | ✅ Stable |
 | YouTube | HTML/RSS | ⚠️ Unstable |
 
+## Hermes Tweet Companion
+
+When this skill runs inside Hermes Agent and the brand question needs X/Twitter
+evidence, use Hermes Tweet as the companion route:
+
+```bash
+hermes plugins install Xquik-dev/hermes-tweet --enable
+```
+
+Set `XQUIK_API_KEY` for read and action tools. Set
+`HERMES_TWEET_ENABLE_ACTIONS=true` only when action workflows are intentional.
+Keep this brand-monitoring skill as the synthesis and reporting workflow.
+
 ## Analysis Dimensions
 
 | Dimension | Method | Output |
